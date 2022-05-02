@@ -1,25 +1,25 @@
-Full update and upgrade:
+Full update, upgrade, dist-upgrade, autoremove, & clean:
 ```
 sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y && apt autoremove -y && apt clean -y
 ```
 
-Fix tzdata:
+Fixing tzdata:
 ```
 sudo apt install ntpdate && apt ntpdate in.pool.ntp.org && apt dpkg-reconfigure tzdata
 ```
 
-Install Alfa card drivers Correctly:
+Install Alfa card drivers:
 ```
 sudo apt install dkms && sudo apt install realtek-rtl88xxau-dkms && sudo reboot now
 sudo git clone https://github.com/aircrack-ng/rtl8812au && cd rtl8812au/ && make && sudo make install && sudo rm -rf rtl8812au
 ```
 
-Install Wifite Correctly:
+Installing Wifite:
 ```
 sudo git clone https://github.com/kimocoder/wifite2.git && sudo pip install pytest-flake8 && sudo apt install hcxdumptool && sudo apt install hcxtools && sudo apt-get install libpcap-dev && sudo apt-get install python2.7-dev libssl-dev zlib1g-dev libpcap-dev && sudo git clone https://github.com/JPaulMora/Pyrit.git && cd Pyrit && sudo python3 setup.py clean && sudo python3 setup.py build && sudo python3 setup.py install && sudo apt clean -y && sudo apt autoremove -y
 ```
 
-Installing Tor:
+Installing Tor Browser:
 ```
 https://www.howtogeek.com/423866/how-to-install-and-use-the-tor-browser-on-linux/
 ```
