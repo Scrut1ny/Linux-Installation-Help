@@ -32,7 +32,6 @@ git clone https://github.com/aircrack-ng/mdk4
 git clone https://github.com/yt-dlp/yt-dlp
 git clone https://github.com/ohmyzsh/ohmyzsh
 git clone https://github.com/hashcat/hashcat
-
 git clone https://github.com/lanmaster53/recon-ng
 git clone https://github.com/s0md3v/ReconDog
 git clone https://github.com/laramies/theHarvester
